@@ -5,6 +5,7 @@ body {
     margin: 0px;
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
+    max-width: 1440px;
 }
 
 main {
@@ -275,10 +276,21 @@ section {
     height: 600px;
     border-radius: 15px;
     margin-left: 20px;
-    padding: 10px;
+    margin-right: 20px;
+    padding-bottom: 34px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+}
+
+.popular-icon {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 26px;
+    
 }
 
 .card-2 {
@@ -287,7 +299,7 @@ section {
     width: 90%;
     height: 150px;
     border-radius: 20px;
-    margin: 10px;
+    margin-bottom: 33px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -295,7 +307,7 @@ section {
 
 .card-image-2 {
     width: 40%;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 .card-image-2 img {
@@ -313,7 +325,7 @@ section {
     margin-left: 5px;
 }
 
-.content-label {
+.content-label p {
     line-height: 5px;
 }
 
