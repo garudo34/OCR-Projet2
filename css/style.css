@@ -150,6 +150,7 @@ header p {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
+    gap: 25px;
 }
 
 .title-filter {
@@ -176,8 +177,9 @@ header p {
 
 .filter-tags {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 40px;
 }
 
 .filter-tag {
@@ -185,8 +187,6 @@ header p {
     align-items: center;
     height: 46px;
     border: 2px solid #d9d9d9;
-    margin-left: 35px;
-    margin-right: 5px;
     padding-right: 20px;
     border-radius: 25px;
     font-weight: 700;
@@ -563,4 +563,15 @@ footer {
 .footer-hebergement li,
 .footer-assistance li {
     padding: 0 0 12px 0;
+}
+
+
+/* Responsive format tablette */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    main {
+        margin: 0 70px;
+    }
+
+    
 }
