@@ -188,9 +188,6 @@ section.formulaire-recherche {
     background-color: #ffffff;
 }
 
-.filter-list-mobile:nth-child(2n) {
-    /* flex-basis: 100%; */
-}
 
 .filter-element-mobile i {
     margin-right: .5em;
@@ -381,7 +378,7 @@ h3.see-more {
 }
 
 .card-content-hebergement {
-    margin: 0px 0px 11px 16px;
+    margin: 4px 0px 11px 16px;
 }
 
 .card-content-hebergement h3 {
@@ -521,11 +518,6 @@ h3.see-more {
 section.activites {
     padding-top: 60px;
     padding-bottom: 61px;
-}
-
-.container-activities {
-    /* width: 100%;
-    height: auto; */
 }
 
 .container-activities h2 {
