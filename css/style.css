@@ -220,6 +220,7 @@ section.formulaire-recherche {
     justify-content: space-around;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .filter-element:hover {
